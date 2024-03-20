@@ -1,0 +1,470 @@
+
+
+/* font fam */
+/* 內文字是微軟正黑體 */
+body{
+	font-family: 'Microsoft JhengHei','Noto Sans TC', sans-serif;
+  line-height: 1.8;
+}
+
+h1 {
+	font-family: "Arimo", sans-serif;
+}
+h2,
+h3 {
+	font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+/*======= Header ======= */
+.ab-logo-w{
+  width: 160px;
+}
+
+.ab-nav-text-color a{
+  color:  #666666 ;
+}
+/* =======end=======  */
+.ab-text-color-red{
+  color: #D70C18 ;
+}
+.ab-text-color-red a{
+  color: #D70C18 ;
+}
+/* =======end=======  */
+/* 往下滾之後的nav效果 */
+.navbar {
+  transition: background-color 0.5s ease;
+}
+.navbar.grey {
+  background-color: #000000 !important; /* 滾動後的背景底色 */
+  color: #ffffff ; /* 滾動後的文字顏色 */
+}
+.navbar.grey a {
+  color: #ffffff ; /* 滾動後的文字顏色 */
+}
+/* =======end=======  */
+
+
+
+
+/*======= Header end ======= */
+
+
+.text-container{
+  max-width: 1200px;
+}
+
+.mt-6 {
+  margin-top: 3.5rem;
+}
+
+.mt-7 {
+  margin-top: 4rem;
+}
+
+.mt-8 {
+  margin-top: 4.5rem;
+}
+
+.mt-9 {
+  margin-top: 5rem;
+}
+
+.mt-10 {
+  margin-top: 5.5rem;
+}
+
+
+.mt-11 {
+  margin-top: 6rem;
+}
+
+.mt-12 {
+  margin-top: 6.5rem;
+}
+
+.mt-13 {
+  margin-top: 7rem;
+}
+
+.mt-14 {
+  margin-top: 7.5rem;
+}
+
+.mt-15 {
+  margin-top: 8rem;
+}
+
+.mt-16 {
+  margin-top: 8.5rem;
+}
+
+.mt-17 {
+  margin-top: 9rem;
+}
+
+.mt-18 {
+  margin-top: 9.5rem;
+}
+
+.mt-19 {
+  margin-top: 10rem;
+}
+
+.mt-20 {
+  margin-top: 10.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+.ab-ms-15 {
+  margin-right: 15rem;
+}
+.ab-ms-10 {
+  margin-right: 10rem;
+}
+
+
+
+
+
+
+.start-65 {
+	left : 65%;
+}
+
+.start-80 {
+	left : 80%;
+}
+
+
+/* Start classes */
+.start-5 {
+  left: 5%;
+}
+
+.start-10 {
+  left: 10%;
+}
+
+.start-15 {
+  left: 15%;
+}
+
+.start-20 {
+  left: 20%;
+}
+
+.start-25 {
+  left: 25%;
+}
+
+.start-30 {
+  left: 30%;
+}
+
+.start-35 {
+  left: 35%;
+}
+
+.start-40 {
+  left: 40%;
+}
+
+.start-45 {
+  left: 45%;
+}
+
+.start-50 {
+  left: 50%;
+}
+
+.start-55 {
+  left: 55%;
+}
+
+.start-60 {
+  left: 60%;
+}
+
+.start-65 {
+  left: 65%;
+}
+
+.start-70 {
+  left: 70%;
+}
+
+.start-75 {
+  left: 75%;
+}
+
+.start-80 {
+  left: 80%;
+}
+
+.start-85 {
+  left: 85%;
+}
+
+.start-90 {
+  left: 90%;
+}
+
+
+
+/* -------------- */
+/* Top classes */
+.top-5 {
+  top: 5%;
+}
+
+.top-10 {
+  top: 10%;
+}
+
+.top-15 {
+  top: 15%;
+}
+
+.top-20 {
+  top: 20%;
+}
+
+.top-25 {
+  top: 25%;
+}
+
+.top-30 {
+  top: 30%;
+}
+
+.top-35 {
+  top: 35%;
+}
+
+.top-40 {
+  top: 40%;
+}
+
+.top-45 {
+  top: 45%;
+}
+
+.top-50 {
+  top: 50%;
+}
+
+.top-55 {
+  top: 55%;
+}
+
+.top-60 {
+  top: 60%;
+}
+
+.top-65 {
+  top: 65%;
+}
+
+.top-70 {
+  top: 70%;
+}
+
+.top-75 {
+  top: 75%;
+}
+
+.top-80 {
+  top: 80%;
+}
+
+.top-85 {
+  top: 85%;
+}
+
+.top-90 {
+  top: 90%;
+}
+
+.top-95 {
+  top: 95%;
+}
+
+.top-100 {
+  top: 100%;
+}
+
+
+.text-white-stroke {
+  -webkit-text-stroke: 2px #D70C18; 
+  color: #ffffff; 
+  
+  
+}
+
+/*banner-title的動畫效果*/
+@keyframes bounce {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(300px);
+  }
+}
+h1 {
+  animation: bounce 1s ;
+}
+
+
+
+.banner-text{
+  font-size: 90px;
+}
+
+/* iPad版的媒體查詢 */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .banner-text {
+    font-size: 75px; /* 在iPad上調整字體大小為75px */
+  }
+}
+
+/* 手機版的媒體查詢 */
+@media only screen and (max-width: 768px) {
+  .banner-text {
+    font-size: 40px; /* 在手機上調整字體大小為60px */
+  }
+}
+
+
+
+
+.pt-10{
+  padding-top: 10rem;
+}
+
+
+/* 首頁三角形 */
+.triangle {
+  clip-path: polygon(53% 0, 0% 100%, 0 0);
+  background-color: red;
+  width: 80%; /* 设置元素宽度，根据需要调整 */
+  height: 180%; /* 设置元素高度，根据需要调整 */
+}
+
+
+/* 桌機版和手機版的共同樣式（工人圖） */
+/* 定義桌機版的樣式 */
+@media only screen and (max-width: 992px) {
+  .triangle {
+    clip-path: polygon(80% 0, 0% 100%, 0 0);
+    background-color: red;
+    width: 80%; /* 设置元素宽度，根据需要调整 */
+    height: 100%; /* 设置元素高度，根据需要调整 */
+  }
+}
+
+
+/* 桌機版和手機版的共同樣式（工人圖） */
+/* 定義桌機版的樣式 */
+@media only screen and (min-width: 768px) {
+  .ps-6{
+    padding-left: 3.5rem;
+  }
+  .ps-7 {
+    padding-left: 4rem;
+  }
+  
+  .ps-8 {
+    padding-left: 4.5rem;
+  }
+  
+  .ps-9 {
+    padding-left: 5rem;
+  }
+  
+  .ps-10 {
+    padding-left: 5.5rem;
+  }
+  
+
+  .mt-n5 {
+    margin-top: -3rem;
+  }
+
+  .mt-n6 {
+    margin-top: -3.5rem;
+  }
+
+  .mt-n7 {
+    margin-top: -4rem;
+  }
+
+  .mt-n8 {
+    margin-top: -4.5rem;
+  }
+
+  .mt-n9 {
+    margin-top: -5rem;
+  }
+
+  .mt-n10 {
+    margin-top: -5.5rem;
+  }
+}
+
+/* 定義手機版的樣式（根據需要進行調整） */
+@media only screen and (max-width: 767px) {
+  /* 在這裡添加手機版特定的樣式 */
+  /* 例如：.mt-n5, .mt-n6 { margin-top: 0; } */
+
+  .ms-md-5{
+    margin-left: 0rem;
+  }
+  .ps-md-10{
+    padding-left: 0rem;
+  }
+}
+
+
+/* footer */
+.ab-footer-logo{
+  max-width: 150px;
+}
+.social-links a {
+  font-size: 25px; /* 设置你想要的字体大小 */
+}
+.ab-footer-icon-s{
+  width: 25px;
+ }
+.ab-footer-icon-m{
+ width: 45px;
+}
+#footer {
+  position: relative;
+  width: 100%;
+}
+
+#footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0%; /* 调整这里的值以控制border-top的宽度 */
+  width: 80%;
+  height: 3px;
+  background-color: red;
+}
+
+@media only screen and (min-width: 767px) {
+  .ab-border-light{
+    border-right: #CDCECE 1px solid;
+  }
+}
