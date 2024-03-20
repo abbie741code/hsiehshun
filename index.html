@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>協順工業</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" /> -->
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" /> -->
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/reset.css" rel="stylesheet" />
+    <link href="assets/css/header.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* * {
+        outline: 2px solid hsl(175, 69%, 75%);
+      } */
+    </style>
+  </head>
+
+  <body>
+    <!-- ======= Header- 有+滾動事件 ======= -->
+    <nav id="header" class="position-fixed header-border" style="z-index: 9999">
+      <div
+        class="container d-flex align-items-center justify-content-lg-between"
+      >
+        <div class="logo me-auto me-lg-0 ab-logo-w ms-3">
+          <a href="index.html">
+            <img
+              src="images/logo-white.png"
+              alt=""
+              class="w-100 desktop-logo"
+            />
+            <!-- 在页面中添加一个新的图片，这将是您要在滚动时切换的图片 -->
+            <img
+              src="images/logo-red.png"
+              alt=""
+              class="w-100 desktop-logo"
+              id="new-logo"
+              style="display: none"
+            />
+          </a>
+        </div>
+
+        <nav id="navbar" class="navbar order-last order-lg-0">
+          <ul>
+            <li>
+              <a class="nav-link scrollto me-4" href="news.html">最新消息</a>
+            </li>
+            <li class="dropdown text-decoration-none">
+              <a class="nav-link scrollto me-4" href="#anchor-about"
+                ><span class="me-1">關於協順</span>
+                <i class="bi bi-chevron-down"></i
+              ></a>
+              <ul class="border-top border-bottom border-danger border-1">
+                <li class="border-bottom border-danger border-1">
+                  <a href="history.html">公司沿革</a>
+                </li>
+                <li><a href="philosophy.html">經營理念</a></li>
+              </ul>
+            </li>
+            <li class="dropdown text-decoration-none">
+              <a class="nav-link scrollto me-4" href="#anchor-Business"
+                ><span class="me-1">營業項目</span>
+                <i class="bi bi-chevron-down"></i
+              ></a>
+              <ul class="border-top border-bottom border-danger border-1">
+                <li class="border-bottom border-danger border-1">
+                  <a href="inner-page-xin.html">鋅電鍍</a>
+                </li>
+                <li class="border-bottom border-danger border-1">
+                  <a href="inner-page-xin-nie.html">鋅鎳合金</a>
+                </li>
+                <li class="border-bottom border-danger border-1">
+                  <a href="inner-page-xin-tie.html">鋅鐵合金</a>
+                </li>
+                <li class="border-bottom border-danger border-1">
+                  <a href="inner-page-dian-zhu.html">電著塗裝</a>
+                </li>
+                <li class="border-bottom border-danger border-1">
+                  <a href="inner-page-lin.html">磷酸鋅與磷酸猛</a>
+                </li>
+                <li><a href="accessories.html">周邊商品</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a class="nav-link scrollto me-4" href="quality.html">品質技術</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto me-4" href="responsibility.html"
+                >社會責任</a
+              >
+            </li>
+            <li>
+              <a class="nav-link scrollto me-4" href="service.html">服務據點</a>
+            </li>
+
+            <li>
+              <a class="nav-link scrollto me-4" href="contact.html">聯絡我們</a>
+            </li>
+            <li
+              class="nav-link scrollto me-4 ab-text-color-red fw-bold d-flex justify-content-center align-items-center"
+            >
+              <a href="#">EN</a>
+              <span class="mx-1"> | </span>
+              <a class="ab-text-color-red" href="#">中文 </a>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+      </div>
+    </nav>
+    <!-- End Header -->
+
+    <!-- banner -->
+    <main
+      class="container-fluid vh-100 vw-100 position-relative mw-100"
+      style="
+        background-image: url(images/bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      "
+    >
+      <div class="container">
+        <!-- 三角形 -->
+        <div
+          class="triangle position-absolute top-0 start-0"
+          style="z-index: 0"
+        ></div>
+        <!-- d -->
+        <div
+          class="position-absolute top-10 start-45 ab-index-d-position ab-red-d-log-w ab-hover-big"
+          style="z-index: 0"
+        >
+          <img src="images/d.png" alt="" class="w-100" />
+        </div>
+
+        <!-- text -->
+        <div data-aos="fade-right">
+          <div
+            class="text-container position-relative mb-2"
+            style="z-index: 999"
+          >
+            <img
+              src="images/banner-text.png"
+              alt=""
+              class="w-100 h-auto mt-20"
+            />
+          </div>
+        </div>
+
+        <!-- small text -->
+        <div data-aos="fade-right">
+          <div class="text-container position-relative" style="z-index: 999">
+            <h2 class="text-white ps-1">最專業的</h2>
+            <h2 class="text-white ps-1 mt-n2">表面處理技術</h2>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- 最新消息 -->
+    <div id="anchor-news" class="pt-5 pt-md-12"></div>
+    <div class="ab-container-news">
+      <div class="d-flex justify-content-center align-items-center mb-5">
+        <span class="d-flex align-items-center">
+          <img src="images/slash.png" alt="" class="w-100" />
+        </span>
+        <h3 class="text-dark mx-1">最新消息</h3>
+        <span class="d-flex align-items-center">
+          <img src="images/slash.png" alt="" class="w-100" />
+        </span>
+      </div>
+
+      <div class="table-responsive">
+        <table class="table mx-auto overflow-hidden" data-aos="fade-up">
+          <!-- content -->
+          <tbody>
+            <tr class="border-bottom border-1 border-danger">
+              <td class="td-min-w">
+                <i class="bi bi-megaphone"></i>&nbsp; 2023/01/16
+              </td>
+              <td class="td-max-w-text">
+                <p class="text-truncate">
+                  <a
+                    href="news-inner-page.html"
+                    class="text-black text-decoration-none"
+                  >
+                    提升產能、良率有感！乾式真空泵浦化身半導體產線「最穩定的力量」提升產能、良率有感！乾式真空泵浦化身半導體產線「最穩定的力量乾式真空泵浦化身半導體產線「最穩定的力量乾式真空泵浦化身半導體產線「最穩定的力量</a
+                  >
+                </p>
+              </td>
+            </tr>
+            <tr class="border-bottom border-1 border-danger">
+              <td class="td-min-w">
+                <i class="bi bi-megaphone"></i>&nbsp; 2023/01/16
+              </td>
+              <td class="td-max-w-text">
+                <p class="text-truncate">
+                  <a
+                    href="news-inner-page.html"
+                    class="text-black text-decoration-none"
+                  >
+                    提升產能、良率有感！乾式真空泵浦化身半導體產線「最穩定的力量」提升產能、良率有感！乾式真空泵浦化身半導體產線「最穩定的力量乾式真空泵浦化身半導體產線「最穩定的力量乾式真空泵浦化身半導體產線「最穩定的力量</a
+                  >
+                </p>
+              </td>
+            </tr>
+            <tr class="border-bottom border-1 border-danger">
+              <td class="td-min-w">
+                <i class="bi bi-megaphone"></i>&nbsp; 2023/01/16
+              </td>
+              <td class="td-max-w-text">
+                <p class="text-truncate">
+                  <a
+                    href="news-inner-page.html"
+                    class="text-black text-decoration-none"
+                  >
+                    提升產能、良率有感！乾式真空泵浦化身半導體產線「最穩定的力量」提升產能、良率有感！乾式真空泵浦化身半導體產線「最穩定的力量乾式真空泵浦化身半導體產線「最穩定的力量乾式真空泵浦化身半導體產線「最穩定的力量</a
+                  >
+                </p>
+              </td>
+            </tr>
+            <tr class="border-bottom border-1 border-danger">
+              <td class="td-min-w">
+                <i class="bi bi-megaphone"></i>&nbsp; 2023/01/16
+              </td>
+              <td class="td-max-w-text">
+                <p class="text-truncate">
+                  <a
+                    href="news-inner-page.html"
+                    class="text-black text-decoration-none"
+                  >
+                    提升產能、良率有感！乾式真空泵浦化身半導體產線「最穩定的力量」提升產能、良率有感！乾式真空泵浦化身半導體產線「最穩定的力量乾式真空泵浦化身半導體產線「最穩定的力量乾式真空泵浦化身半導體產線「最穩定的力量</a
+                  >
+                </p>
+              </td>
+            </tr>
+            <tr class="border-bottom border-1 border-danger">
+              <td class="td-min-w">
+                <i class="bi bi-megaphone"></i>&nbsp; 2023/01/16
+              </td>
+              <td class="td-max-w-text">
+                <p class="text-truncate">
+                  <a
+                    href="news-inner-page.html"
+                    class="text-black text-decoration-none"
+                  >
+                    提升產能、良率有感！乾式真空泵浦化身半導體產線「最穩定的力量」提升產能、良率有感！乾式真空泵浦化身半導體產線「最穩定的力量乾式真空泵浦化身半導體產線「最穩定的力量乾式真空泵浦化身半導體產線「最穩定的力量</a
+                  >
+                </p>
+              </td>
+            </tr>
+
+            <tr class="">
+              <td></td>
+              <td class="text-end">
+                <a
+                  class="badge rounded-pill bg-danger border-0"
+                  href="news.html"
+                >
+                  more...
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- 關於協順 -->
+    <div id="anchor-about" class="pt-5 pt-md-12"></div>
+    <div class="container-fluid">
+      <div class="row mb-md-10 mb-5">
+        <div class="col-12">
+          <div class="d-flex justify-content-center align-items-center mb-2">
+            <span class="d-flex align-items-center">
+              <img src="images/slash.png" alt="" class="w-100" />
+            </span>
+            <h3 class="text-dark mx-1">關於協順</h3>
+            <span class="d-flex align-items-center">
+              <img src="images/slash.png" alt="" class="w-100" />
+            </span>
+          </div>
+          <div class="d-flex justify-content-center align-items-center">
+            <h4 class="fw-bold ab-text-color-red">最專業的表面處理技術</h4>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center" data-aos="fade-up">
+        <!-- 左邊文字區域 -->
+        <div class="col-md-6 position-relative">
+          <div class="d-flex flex-column">
+            <div class="row">
+              <div class="col-md-5"></div>
+              <div class="col-md-7">
+                <p class="ab-mobile-container">
+                  協順自1972年創立至今，本公司直秉持「誠、信、儉、樸」的企業文化，以「發展電鍍文化、維護青山綠水」的經營理念及「品質環保優先、客戶需求至上」之品質政策，作為公司營運方針之依據，推動企業「觀念、態度、執行力、效率、績效」之五大職場信念，建立「整理、整頓、清掃、清潔、教養」安全衛生的工作環境，專注於經營「專業化表面處理加工服務」本業，致力於環境保護以提供顧客滿意與安心之需求，並達成公司永續經營、永續發展之目標。
+                  <br />
+                  <br />
+
+                  <a
+                    type="button"
+                    class="btn btn-danger me-2"
+                    href="history.html"
+                    >公司沿革</a
+                  >
+
+                  <a type="button" class="btn btn-danger" href="philosophy.html"
+                    >經營理念</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 右邊工人區域 -->
+        <div class="col-md-6 d-none d-md-block">
+          <div class="row mt-5">
+            <div class="col-md-1"></div>
+            <div class="col-md-11">
+              <div class="mt-n10">
+                <div class="position-relative">
+                  <!-- worker -->
+                  <div class="ab-worker-w">
+                    <img
+                      src="images/worker-d.png"
+                      alt="Your Image"
+                      class="position-absolute worker start-0 bottom-5 ms-n5 ab-hover-big img-fluid"
+                    />
+                  </div>
+                  <!-- 梯形 -->
+                  <div class="red-trapezoid" class=""></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 營業項目 flower -desktop -->
+    <div id="anchor-Business" class="pt-6"></div>
+    <div class="container mb-5 mw-100">
+      <div class="d-flex justify-content-center align-items-center mb-2">
+        <span class="d-flex align-items-center">
+          <img src="images/slash.png" alt="" class="w-100" />
+        </span>
+        <h3 class="text-dark mx-1">營業項目</h3>
+        <span class="d-flex align-items-center">
+          <img src="images/slash.png" alt="" class="w-100" />
+        </span>
+      </div>
+      <div class="d-flex justify-content-center align-items-center mb-5">
+        <h4 class="fw-bold ab-text-color-red">最專業的表面處理技術</h4>
+      </div>
+
+      <!-- flower-container -->
+      <div class="ab-flower-container mb-5">
+        <div
+          class="d-flex justify-content-between flex-wrap align-items-center"
+          data-aos="fade-up"
+        >
+          <!-- flower -->
+          <div class="mb-5 mb-lg-0">
+            <div class="ab-single-flower-size">
+              <img src="images/flower-new.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+
+          <!-- text -->
+          <div
+            class="d-flex flex-column align-items-center justify-content-center mx-auto"
+          >
+            <a
+              href="inner-page-xin.html"
+              target="_blank"
+              class="flower-text-size ab-red-border text-center text-decoration-none mb-5"
+            >
+              <h4 class="text-dark fw-bold pb-2">鋅電鍍</h4>
+            </a>
+            <a
+              href="inner-page-xin-nie.html"
+              target="_blank"
+              class="flower-text-size ab-red-border text-center text-decoration-none mb-5"
+            >
+              <h4 class="text-dark fw-bold pb-2">新鎳合金</h4>
+            </a>
+            <a
+              href="inner-page-xin-tie.html"
+              target="_blank"
+              class="flower-text-size ab-red-border text-center text-decoration-none mb-5"
+            >
+              <h4 class="text-dark fw-bold pb-2">鋅鐵合金</h4>
+            </a>
+            <a
+              href="inner-page-dian-zhu.html"
+              target="_blank"
+              class="flower-text-size ab-red-border text-center text-decoration-none mb-5"
+            >
+              <h4 class="text-dark fw-bold pb-2">電著塗裝</h4>
+            </a>
+            <a
+              href="inner-page-lin.html"
+              target="_blank"
+              class="flower-text-size ab-red-border text-center text-decoration-none mb-5"
+            >
+              <h4 class="text-dark fw-bold pb-2">磷酸鋅與磷酸猛</h4>
+            </a>
+            <a
+              href="accessories.html"
+              target="_blank"
+              class="flower-text-size ab-red-border text-center text-decoration-none mb-5"
+            >
+              <h4 class="text-dark fw-bold pb-2">周邊商品</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 營業項目 flower -mobile-->
+    <!-- <div id="anchor-Business" class="pt-6"></div>
+    <div class="ab-flower-mobile-container  d-block d-lg-none">
+      <div class="d-flex justify-content-center align-items-center mb-5">
+        <span class="d-flex align-items-center">
+          <img src="images/slash.png" alt="" class="w-100" />
+        </span>
+        <h3 class="text-dark mx-1">營業項目</h3>
+        <span class="d-flex align-items-center">
+          <img src="images/slash.png" alt="" class="w-100" />
+        </span>
+      </div>
+
+      <div class="d-flex flex-wrap justify-content-around">
+        <div class="btn btn-light ab-operations-w mb-3  fw-bold">
+          <a href="inner-page-xin.html" class="text-decoration-none text-black">
+            鋅電鍍
+          </a>
+        </div>
+        <div class="btn btn-light ab-operations-w mb-3  fw-bold">
+          <a href="inner-page-xin-nie.html" class="text-decoration-none text-black">
+            鋅鎳合金
+          </a>
+        </div>
+        <div class="btn btn-light ab-operations-w mb-3  fw-bold">
+          <a href="inner-page-xin-tie.html" class="text-decoration-none text-black">
+            鋅鐵合金
+          </a>
+        </div>
+        <div class="btn btn-light ab-operations-w mb-3  fw-bold">
+          <a href="inner-page-dian-zhu.html" class="text-decoration-none text-black">
+            電著塗裝
+          </a>
+        </div>
+
+        <div class="btn btn-light ab-operations-w mb-3  fw-bold">
+          <a href="inner-page-xi-xin.html" class="text-decoration-none text-black">
+            錫鋅合金
+          </a>
+        </div>
+        <div class="btn btn-light ab-operations-w mb-3  fw-bold">
+          <a href="inner-page-ying-lu.html" class="text-decoration-none text-black">
+            硬鉻電鍍
+          </a>
+        </div>
+        <div class="btn btn-light ab-operations-w mb-3  fw-bold">
+          <a href="inner-page-nie-lu.html" class="text-decoration-none text-black">
+            鎳鉻電鍍
+          </a>
+        </div>
+        <div class="btn btn-light ab-operations-w mb-3  fw-bold">
+          <a href="inner-page-lin.html" class="text-decoration-none text-black">
+            磷酸鋅與磷酸猛
+          </a>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- ======= Fixed-icon line ====== -->
+    <div class="fixed-right-bottom line-icon-w">
+      <a
+        href="https://liff.line.me/1645278921-kWRPP32q/?accountId=kkz1206b"
+        class="ab-line-w"
+        target="_blank"
+      >
+        <img src="images/line.png" alt="" class="w-100" />
+      </a>
+    </div>
+
+    <!-- ======= Footer ====== -->
+    <footer id="footer" class="ab-bg-grey py-5 container-fluid">
+      <div class="footer-top mb-3">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-md-6 d-flex align-items-center">
+              <div class="ab-footer-logo">
+                <img src="images/logo-red.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div
+                class="social-links mt-3 d-flex align-items-center justify-content-end footer-newsletter ab-text-color-red"
+              >
+                <a
+                  href="https://www.facebook.com/hsplating/?locale=zh_TW
+                "
+                  class="facebook me-3"
+                  target="_blank"
+                >
+                  <img src="images/fb.png" alt="" class="ab-footer-icon-s" />
+                </a>
+                <a
+                  href="https://www.instagram.com/hsieh.shun?igsh=MWVkZGdwZ2x6MHIwcw==
+                "
+                  class="instagram me-3"
+                  target="_blank"
+                >
+                  <img src="images/ig.png" alt="" class="ab-footer-icon-s" />
+                </a>
+                <!-- <a href="#" class="facebook me-3">
+                  <img
+                    src="images/message.png"
+                    alt=""
+                    class="ab-footer-icon-s"
+                  />
+                </a> -->
+                <a
+                  href="https://www.youtube.com/channel/UCcaLktxtPUqkS7F_y3njlxQ
+                "
+                  class="twitter me-3"
+                  target="_blank"
+                >
+                  <img
+                    src="images/youtube.png"
+                    alt=""
+                    class="ab-footer-icon-s"
+                  />
+                </a>
+                <a href="#" class="ab-footer-icon">
+                  <img src="images/top.png" alt="" class="ab-footer-icon-m"
+                /></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3 ab-border-light">
+              <div class="footer-info mb-4">
+                <!-- <div class="ab-footer-logo">
+                  <img src="images/logo-red.png" alt="" class="img-fluid" />
+                </div> -->
+
+                <h4 class="mb-2 footer-dark-grey-color">886-3-469-9966</h4>
+                <h4 class="mb-2 footer-dark-grey-color">分機 #206</h4>
+                <p class="footer-dark-grey-color">桃園市平鎮區工業一路 19 號</p>
+                <a
+                  href="mailto:naomi@e-plating.com.tw"
+                  class="text-decoration-underline p footer-dark-grey-color"
+                  >naomi@e-plating.com.tw</a
+                >
+              </div>
+            </div>
+
+            <div class="col-md-6 footer-links ps-md-5">
+              <h4 class="mb-2 fw-bold">網站導覽</h4>
+
+              <div class="row gy-3">
+                <div class="col-4">
+                  <a class="fw-bold ab-text-color-red" href="index.html"
+                    >關於協順</a
+                  >
+                  <ul>
+                    <li>
+                      <a href="history.html">公司沿革</a>
+                    </li>
+                    <li>
+                      <a href="philosophy.html">經營理念</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-4">
+                  <a class="fw-bold ab-text-color-red" href="index.html"
+                    >營業項目</a
+                  >
+                  <div class="row gx-0">
+                    <div class="col-12">
+                      <ul>
+                        <li>
+                          <a href="inner-page-xin.html">鋅電鍍</a>
+                        </li>
+                        <li>
+                          <a href="inner-page-xin-nie.html">鋅鎳合金</a>
+                        </li>
+                        <li>
+                          <a href="inner-page-xin-tie.html">鋅鐵合金</a>
+                        </li>
+                        <li>
+                          <a href="inner-page-dian-zhu.html">電著塗裝</a>
+                        </li>
+                        <li>
+                          <a href="inner-page-lin.html">磷酸鋅與磷酸猛</a>
+                        </li>
+                        <li>
+                          <a href="accessories.html">周邊商品</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- <div class="col-md-7">
+                      <ul>
+                        <li>
+                          <a href="inner-page-xi-xin.html">錫鋅合金</a>
+                        </li>
+                        <li>
+                          <a href="inner-page-ying-lu.html">硬鉻電鍍</a>
+                        </li>
+                        <li>
+                          <a href="inner-page-nie-lu.html">鎳鉻電鍍</a>
+                        </li>
+                        <li>
+                          <a href="inner-page-lin.html">磷酸鋅與磷酸猛</a>
+                        </li>
+                      </ul>
+                    </div> -->
+                  </div>
+                </div>
+                <div class="col-4">
+                  <a class="fw-bold ab-text-color-red" href="quality.html"
+                    >品質技術</a
+                  >
+                  <ul>
+                    <li>
+                      <a href="quality.html">品質政策</a>
+                    </li>
+                    <li>
+                      <a href="quality.html">品質保證</a>
+                    </li>
+                    <li>
+                      <a href="quality.html">生產技術</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-4">
+                  <a
+                    class="fw-bold ab-text-color-red"
+                    href="responsibility.html"
+                    >社會責任</a
+                  >
+                  <ul>
+                    <li>
+                      <a href="responsibility.html">環境政策 </a>
+                    </li>
+                    <li>
+                      <a href="responsibility.html">安全衛生 </a>
+                    </li>
+                    <li>
+                      <a href="responsibility.html">節能減碳 </a>
+                    </li>
+                    <li>
+                      <a href="responsibility.html">污染防治 </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-4">
+                  <a class="fw-bold ab-text-color-red" href="service.html"
+                    >服務據點</a
+                  >
+                </div>
+                <div class="col-4">
+                  <a class="fw-bold ab-text-color-red" href="contact.html"
+                    >聯絡我們</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <div class="copyright">
+          <p>&copy; Copyright e-platingAll Rights Reserved</p>
+        </div>
+        <div class="credits copyright">
+          <p>Designed by BORNA design</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> -->
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/header.js"></script>
+
+    <!-- 略過其他部分，直接添加到 <script> 標籤 -->
+    <!-- 12/28為了原始a link色要白色, 而穩下滾時, 顏色要變成灰色 沒辦法只好另外在寫jq -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // 當頁面滾動時執行這個函數
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 50) {
+            // 超過50px高時觸發
+            $("#header").addClass("scrolled"); // 添加 'scrolled' 類
+            $("#new-logo").show(); // 顯示新標誌
+            $(".desktop-logo").not("#new-logo").hide(); // 隱藏原來標誌
+          } else {
+            $("#header").removeClass("scrolled"); // 移除 'scrolled' 類
+            $("#new-logo").hide(); // 隱藏新標誌
+            $(".desktop-logo").not("#new-logo").show(); // 顯示原來標誌
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
